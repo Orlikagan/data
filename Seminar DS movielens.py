@@ -42,13 +42,13 @@ sns.set(style='whitegrid',color_codes=True)
 # In[6]:
 
 
-train_movies=pd.read_csv("/Users/orlikagan/Desktop/MSC_DS/סמסטר ב/סמינר DS/data/movies.csv")
+train_movies=pd.read_csv("movies.csv")
 
 
 # In[5]:
 
 
-train_ratings=pd.read_csv("/Users/orlikagan/Desktop/MSC_DS/סמסטר ב/סמינר DS/data/ratings.csv")
+train_ratings=pd.read_csv("ratings.csv")
 
 
 # ## We see the overview of all feilds in the rating table
